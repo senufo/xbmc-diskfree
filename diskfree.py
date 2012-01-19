@@ -139,7 +139,7 @@ while (not xbmc.abortRequested):
         #MsgBoxDisk = xbmcgui.ControlLabel( x, y, width, height, '', font, color )
         ImgBoxDisk = xbmcgui.ControlImage( x, y+30, width, height, filename)
         #homeWin.addControl( MsgBoxDisk )
-        homeWin.addControl( ImgBoxDisk )
+        #homeWin.addControl( ImgBoxDisk )
         # get control id
         #MsgBoxDiskId = MsgBoxDisk.getId()
         ImgBoxDiskId = ImgBoxDisk.getId()
